@@ -1,5 +1,5 @@
-<script>
-import {defineEmits} from 'vue'
+<script setup>
+import {defineEmits} from 'vue';
 
 const emits = defineEmits(['selectOption'])
 const selectOption = (isColor) => {
